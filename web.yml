@@ -13,6 +13,6 @@
         enabled: yes
 
     - name: copy index.html
-      copy:
-        src: /root/index.html
+      ansible.builtin.copy:
+        src: /var/lib/jenkins/workspace/project/index.html
         dest: /var/www/html/index.html
