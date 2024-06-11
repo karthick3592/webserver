@@ -1,6 +1,7 @@
 ---
 - name: configuring web server
   hosts: web
+  become: yes
   tasks:
     - name: install webserver
       dnf:
