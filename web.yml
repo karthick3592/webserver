@@ -15,5 +15,5 @@
 
     - name: copy index.html
       ansible.builtin.copy:
-        src: /var/lib/jenkins/workspace/project/index.html
+        src: /home/jenkinuser/workspace/tes1/
         dest: /var/www/html/index.html
